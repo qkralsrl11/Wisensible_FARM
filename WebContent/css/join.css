@@ -1,0 +1,69 @@
+
+.inputclass > input{
+width:96%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+#tel1, #tel2, #tel3, #email, #domain, #sel, #bank,#accountN, #birth1,#birth2,#birth3{
+width:25%;
+ padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+
+}
+.cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+}
+.cancelbtn, .submitbtn {
+	float: left;
+	width: 50%;
+}button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer; /* 손가락 커서 모양 */
+	width: 100%;
+	opacity: 0.9;
+}
+button:hover {
+	opacity: 1;
+}
+
+
+
+
+fieldset{
+
+padding:40px;
+
+}
+#jointitle{
+text-align:center;
+margin:70px 0px 0px 0px;
+font-size:2.5em;
+
+ }
+b{
+font-size:1.2em;
+padding:10px 0 10px 0;
+display:block;
+}
+.container{
+
+width:180%;
+}
+div.container{
+text-align:justify;
+
+background-color: #fefefe;
+	margin: 3% auto 15% auto;
+	/* 5% from the top, 15% from the bottom and centered */
+	width: 900px; /* Could be more or less, depending on screen size */
+	padding: 0px 16px 16px 16px;
+}
+
+
