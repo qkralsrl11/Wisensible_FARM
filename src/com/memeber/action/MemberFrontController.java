@@ -42,7 +42,12 @@ public class MemberFrontController extends HttpServlet {
 		case "/joinprocess2.com" :
 			action = new JoinprocessAction();
 			break;
-			
+		case "/login2.com" :
+			action = new LoginAction();
+			break;
+		case "/loginprocess2.com" :
+			action = new LoginprocessAction();
+			break;
 	
 			
 	

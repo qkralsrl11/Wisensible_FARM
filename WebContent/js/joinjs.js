@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var ck=0;
 	
 	
-	$('form').submit(function(){
+	/*$('form').submit(function(){
 		if(!idck){
 			alert("사용가능한 id로 입력해주세요");
 			$("input:eq(1)").val('').focus();
@@ -17,9 +17,9 @@ $(document).ready(function(){
 		}
 		
 		
+	
 		
-		
-	})
+	})*/
 	
 	$("#postcode").click(function(){
 		//window.open("post.html", "post","width=400, height=500, scrollbars=yes");

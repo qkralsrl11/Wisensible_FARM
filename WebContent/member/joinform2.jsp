@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-    <jsp:include page="header.jsp" />
+    <jsp:include page="/board/header.jsp" />
     
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
@@ -30,6 +30,7 @@
 		
 		<b>아이디</b>
 		<input type="text" name="id" placeholder="Enter Id" required maxlength="15">
+		<span id="idck"></span>
 		
 		<b>비밀번호</b>
 		<input type="text" name="pass" placeholder="Enter password" required maxlength="15">
@@ -119,5 +120,5 @@
 	</div>
 </form>
 </body>
-<jsp:include page="footer.jsp" />
+<jsp:include page="/board/footer.jsp" />
 </html>
