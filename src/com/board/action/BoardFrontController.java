@@ -13,7 +13,7 @@ import com.Action;
 import com.ActionForward;
 
 
-@WebServlet("*.bo")
+@WebServlet("*.cam")
 public class BoardFrontController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -36,7 +36,7 @@ public class BoardFrontController extends HttpServlet {
 		Action action = null;
 		
 		switch(command) {
-		case "/Wisensible_FARM.bo" :
+		case "/Carpos.cam" :
 			action = new Mainaction();
 			break;
 			
